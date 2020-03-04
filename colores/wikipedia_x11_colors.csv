@@ -1,0 +1,146 @@
+"Name","Hex (24 bit)","Red (8 bit)","Green (8 bit)","Blue (8 bit)","Hue (degrees)","HSL.S (%)","HSL.L (%), HSV.S (%), HSV.V (%)"
+"Blue, Alice !Alice Blue","#F0F8FF",240,248,255,208.0,100.0,97.0
+"White, Antique !Antique White","#FAEBD7",250,235,215,34.0,78.0,91.0
+"Aqua !Aqua","#00FFFF",0,255,255,180.0,100.0,50.0
+"Aquamarine !Aquamarine","#7FFFD4",127,255,212,160.0,100.0,75.0
+"Azure !Azure","#F0FFFF",240,255,255,180.0,100.0,97.0
+"Beige !Beige","#F5F5DC",245,245,220,60.0,56.0,91.0
+"Bisque !Bisque","#FFE4C4",255,228,196,33.0,100.0,88.0
+"Black !Black","#000000",0,0,0,0.0,0.0,0.0
+"BlanchedAlmond !Blanched Almond","#FFEBCD",255,235,205,36.0,100.0,90.0
+"Blue !Blue","#0000FF",0,0,255,240.0,100.0,50.0
+"Violet Blue !Blue Violet","#8A2BE2",138,43,226,271.0,76.0,53.0
+"Brown !Brown","#A52A2A",165,42,42,0.0,59.0,41.0
+"Burlywood !Burlywood","#DEB887",222,184,135,34.0,57.0,70.0
+"Blue, Cadet !Cadet Blue","#5F9EA0",95,158,160,182.0,26.0,50.0
+"Chartreuse !Chartreuse","#7FFF00",127,255,0,90.0,100.0,50.0
+"Chocolate !Chocolate","#D2691E",210,105,30,25.0,75.0,47.0
+"Coral !Coral","#FF7F50",255,127,80,16.0,100.0,66.0
+"Cornflower !Cornflower","#6495ED",100,149,237,219.0,79.0,66.0
+"Cornsilk !Cornsilk","#FFF8DC",255,248,220,48.0,100.0,93.0
+"Crimson !Crimson","#DC143C",220,20,60,348.0,83.0,47.0
+"Cyan !Cyan","#00FFFF",0,255,255,180.0,100.0,50.0
+"Blue (Dark) !Dark Blue","#00008B",0,0,139,240.0,100.0,27.0
+"Cyan (Dark) !Dark Cyan","#008B8B",0,139,139,180.0,100.0,27.0
+"Goldenrod (Dark) !Dark Goldenrod","#B8860B",184,134,11,43.0,89.0,38.0
+"Gray (Dark) !Dark Gray","#A9A9A9",169,169,169,0.0,0.0,66.0
+"Green (Dark) !Dark Green","#006400",0,100,0,120.0,100.0,20.0
+"Khaki (Dark) !Dark Khaki","#BDB76B",189,183,107,56.0,38.0,58.0
+"Magenta (Dark) !Dark Magenta","#8B008B",139,0,139,300.0,100.0,27.0
+"Green Olive (Dark) !Dark Olive Green","#556B2F",85,107,47,82.0,39.0,30.0
+"Orange (Dark) !Dark Orange","#FF8C00",255,140,0,33.0,100.0,50.0
+"Orchid (Dark) !Dark Orchid","#9932CC",153,50,204,280.0,61.0,50.0
+"Red (Dark) !Dark Red","#8B0000",139,0,0,0.0,100.0,27.0
+"Salmon (Dark) !Dark Salmon","#E9967A",233,150,122,15.0,72.0,70.0
+"Green, Sea (Dark) !Dark Sea Green","#8FBC8F",143,188,143,120.0,25.0,65.0
+"Blue, Slate (Dark) !Dark Slate Blue","#483D8B",72,61,139,248.0,39.0,39.0
+"Slate Gray (Dark) !Dark Slate Gray","#2F4F4F",47,79,79,180.0,25.0,25.0
+"Turquoise (Dark) !Dark Turquoise","#00CED1",0,206,209,181.0,100.0,41.0
+"Violet (Dark) !Dark Violet","#9400D3",148,0,211,282.0,100.0,41.0
+"Pink (Deep) !Deep Pink","#FF1493",255,20,147,328.0,100.0,54.0
+"Blue, Sky (Deep) !Deep Sky Blue","#00BFFF",0,191,255,195.0,100.0,50.0
+"Gray (Dim) !Dim Gray","#696969",105,105,105,0.0,0.0,41.0
+"Blue, Dodger !Dodger Blue","#1E90FF",30,144,255,210.0,100.0,56.0
+"Firebrick !Firebrick","#B22222",178,34,34,0.0,68.0,42.0
+"White, Floral !Floral White","#FFFAF0",255,250,240,40.0,100.0,97.0
+"Green, Forest !Forest Green","#228B22",34,139,34,120.0,61.0,34.0
+"Fuchsia !Fuchsia","#FF00FF",255,0,255,300.0,100.0,50.0
+"Gainsboro !Gainsboro","#DCDCDC",220,220,220,0.0,0.0,86.0
+"White, Ghost !Ghost White","#F8F8FF",248,248,255,240.0,100.0,99.0
+"Gold !Gold","#FFD700",255,215,0,51.0,100.0,50.0
+"Goldenrod !Goldenrod","#DAA520",218,165,32,43.0,74.0,49.0
+"Gray !Gray","#BEBEBE",190,190,190,0.0,0.0,75.0
+"Gray, Web !Web Gray","#808080",128,128,128,0.0,0.0,50.0
+"Green !Green","#00FF00",0,255,0,120.0,100.0,50.0
+"Green, Web !Web Green","#008000",0,128,0,120.0,100.0,25.0
+"Yellow Green !Green Yellow","#ADFF2F",173,255,47,84.0,100.0,59.0
+"Honeydew !Honeydew","#F0FFF0",240,255,240,120.0,100.0,97.0
+"Pink, Hot !Hot Pink","#FF69B4",255,105,180,330.0,100.0,71.0
+"Indian Red !Indian Red","#CD5C5C",205,92,92,0.0,53.0,58.0
+"Indigo !Indigo","#4B0082",75,0,130,275.0,100.0,26.0
+"Ivory !Ivory","#FFFFF0",255,255,240,60.0,100.0,97.0
+"Khaki !Khaki","#F0E68C",240,230,140,54.0,77.0,75.0
+"Lavender !Lavender","#E6E6FA",230,230,250,240.0,67.0,94.0
+"LavenderBlush !Lavender Blush","#FFF0F5",255,240,245,340.0,100.0,97.0
+"Green, Lawn !Lawn Green","#7CFC00",124,252,0,90.0,100.0,49.0
+"LemonChiffon !Lemon Chiffon","#FFFACD",255,250,205,54.0,100.0,90.0
+"Blue (Light) !Light Blue","#ADD8E6",173,216,230,195.0,53.0,79.0
+"Coral (Light) !Light Coral","#F08080",240,128,128,0.0,79.0,72.0
+"Cyan (Light) !Light Cyan","#E0FFFF",224,255,255,180.0,100.0,94.0
+"Goldenrod (Light) !Light Goldenrod","#FAFAD2",250,250,210,60.0,80.0,90.0
+"Gray (Light) !Light Gray","#D3D3D3",211,211,211,0.0,0.0,83.0
+"Green (Light) !Light Green","#90EE90",144,238,144,120.0,73.0,75.0
+"Pink (Light) !Light Pink","#FFB6C1",255,182,193,351.0,100.0,86.0
+"Salmon (Light) !Light Salmon","#FFA07A",255,160,122,17.0,100.0,74.0
+"Green, Sea (Light) !Light Sea Green","#20B2AA",32,178,170,177.0,70.0,41.0
+"Blue, Sky (Light) !Light Sky Blue","#87CEFA",135,206,250,203.0,92.0,76.0
+"Gray, Slate (Light) !Light Slate Gray","#778899",119,136,153,210.0,14.0,53.0
+"Blue, Steel (Light) !Light Steel Blue","#B0C4DE",176,196,222,214.0,41.0,78.0
+"Yellow (Light) !Light Yellow","#FFFFE0",255,255,224,60.0,100.0,94.0
+"Lime !Lime","#00FF00",0,255,0,120.0,100.0,50.0
+"Green, Lime !Lime Green","#32CD32",50,205,50,120.0,61.0,50.0
+"Linen !Linen","#FAF0E6",250,240,230,30.0,67.0,94.0
+"Magenta !Magenta","#FF00FF",255,0,255,300.0,100.0,50.0
+"Maroon !Maroon","#B03060",176,48,96,338.0,57.0,44.0
+"Maroon, Web !Web Maroon","#7F0000",127,0,0,0.0,100.0,25.0
+"Aquamarine (Medium) !Medium Aquamarine","#66CDAA",102,205,170,160.0,51.0,60.0
+"Blue (Medium) !Medium Blue","#0000CD",0,0,205,240.0,100.0,40.0
+"Orchid (Medium) !Medium Orchid","#BA55D3",186,85,211,288.0,59.0,58.0
+"Purple (Medium) !Medium Purple","#9370DB",147,112,219,260.0,60.0,65.0
+"Green, Sea (Medium) !Medium Sea Green","#3CB371",60,179,113,147.0,50.0,47.0
+"Blue, Slate (Medium) !Medium Slate Blue","#7B68EE",123,104,238,249.0,80.0,67.0
+"Green, Spring (Medium) !Medium Spring Green","#00FA9A",0,250,154,157.0,100.0,49.0
+"Turquoise (Medium) !Medium Turquoise","#48D1CC",72,209,204,178.0,60.0,55.0
+"Red Violet (Medium) !Medium Violet Red","#C71585",199,21,133,322.0,81.0,43.0
+"Blue, Midnight !Midnight Blue","#191970",25,25,112,240.0,64.0,27.0
+"MintCream !Mint Cream","#F5FFFA",245,255,250,150.0,100.0,98.0
+"MistyRose !Misty Rose","#FFE4E1",255,228,225,6.0,100.0,94.0
+"Moccasin !Moccasin","#FFE4B5",255,228,181,38.0,100.0,86.0
+"White, Navajo !Navajo White","#FFDEAD",255,222,173,36.0,100.0,84.0
+"Blue, Navy !Navy Blue","#000080",0,0,128,240.0,100.0,25.0
+"OldLace !Old Lace","#FDF5E6",253,245,230,39.0,85.0,95.0
+"Olive !Olive","#808000",128,128,0,60.0,100.0,25.0
+"OliveDrab !Olive Drab","#6B8E23",107,142,35,80.0,61.0,35.0
+"Orange !Orange","#FFA500",255,165,0,39.0,100.0,50.0
+"Red Orange !Orange Red","#FF4500",255,69,0,16.0,100.0,50.0
+"Orchid !Orchid","#DA70D6",218,112,214,302.0,59.0,65.0
+"Goldenrod (Pale) !Pale Goldenrod","#EEE8AA",238,232,170,55.0,67.0,80.0
+"Green (Pale) !Pale Green","#98FB98",152,251,152,120.0,93.0,79.0
+"Turquoise (Pale) !Pale Turquoise","#AFEEEE",175,238,238,180.0,65.0,81.0
+"Red Violet (Pale) !Pale Violet Red","#DB7093",219,112,147,340.0,60.0,65.0
+"PapayaWhip !Papaya Whip","#FFEFD5",255,239,213,37.0,100.0,92.0
+"PeachPuff !Peach Puff","#FFDAB9",255,218,185,28.0,100.0,86.0
+"Peru !Peru","#CD853F",205,133,63,30.0,59.0,53.0
+"Pink !Pink","#FFC0CB",255,192,203,350.0,100.0,88.0
+"Plum !Plum","#DDA0DD",221,160,221,300.0,47.0,75.0
+"Blue, Powder !Powder Blue","#B0E0E6",176,224,230,187.0,52.0,80.0
+"Purple !Purple","#A020F0",160,32,240,277.0,87.0,53.0
+"Purple, Web !Web Purple","#7F007F",127,0,127,300.0,100.0,25.0
+"Purple, Rebecca !Rebecca Purple","#663399",102,51,153,270.0,50.0,40.0
+"Red !Red","#FF0000",255,0,0,0.0,100.0,50.0
+"Brown, Rosy !Rosy Brown","#BC8F8F",188,143,143,0.0,25.0,65.0
+"Blue, Royal !Royal Blue","#4169E1",65,105,225,225.0,73.0,57.0
+"Brown, Saddle !Saddle Brown","#8B4513",139,69,19,25.0,76.0,31.0
+"Salmon !Salmon","#FA8072",250,128,114,6.0,93.0,71.0
+"Brown, Sandy !Sandy Brown","#F4A460",244,164,96,28.0,87.0,67.0
+"Green, Sea !Sea Green","#2E8B57",46,139,87,146.0,50.0,36.0
+"Seashell !Seashell","#FFF5EE",255,245,238,25.0,100.0,97.0
+"Sienna !Sienna","#A0522D",160,82,45,19.0,56.0,40.0
+"Silver !Silver","#C0C0C0",192,192,192,0.0,0.0,75.0
+"Blue, Sky !Sky Blue","#87CEEB",135,206,235,197.0,71.0,73.0
+"Blue, Slate !Slate Blue","#6A5ACD",106,90,205,248.0,54.0,58.0
+"Gray, Slate !Slate Gray","#708090",112,128,144,210.0,13.0,50.0
+"Snow !Snow","#FFFAFA",255,250,250,0.0,100.0,99.0
+"Green, Spring !Spring Green","#00FF7F",0,255,127,150.0,100.0,50.0
+"Blue, Steel !Steel Blue","#4682B4",70,130,180,207.0,44.0,49.0
+"Tan !Tan","#D2B48C",210,180,140,34.0,44.0,69.0
+"Teal !Teal","#008080",0,128,128,180.0,100.0,25.0
+"Thistle !Thistle","#D8BFD8",216,191,216,300.0,24.0,80.0
+"Tomato !Tomato","#FF6347",255,99,71,9.0,100.0,64.0
+"Turquoise !Turquoise","#40E0D0",64,224,208,174.0,72.0,57.0
+"Violet !Violet","#EE82EE",238,130,238,300.0,76.0,72.0
+"Wheat !Wheat","#F5DEB3",245,222,179,39.0,77.0,83.0
+"White !White","#FFFFFF",255,255,255,0.0,0.0,100.0
+"WhiteSmoke !White Smoke","#F5F5F5",245,245,245,0.0,0.0,96.0
+"Yellow !Yellow","#FFFF00",255,255,0,60.0,100.0,50.0
+"Green Yellow !Yellow Green","#9ACD32",154,205,50,80.0,61.0,50.0
