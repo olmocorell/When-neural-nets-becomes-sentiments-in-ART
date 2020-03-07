@@ -20,8 +20,8 @@ from PIL import Image
 style_path = "../creada.jpg"
 
 # imagen estilo (temporal)
-n = str(sample(range(1, 11), 1)[0])
-path = "../sentimientos/tristeza/tristeza"
+n = str(sample(range(1, 13), 1)[0])
+path = "../sentimientos/enfado/enfado"
 end = ".jpg"
 content_path = path+n+end
 

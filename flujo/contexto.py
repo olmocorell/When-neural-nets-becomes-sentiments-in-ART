@@ -11,7 +11,7 @@ from random import sample
 
 
 #lee texto
-sample = open("../input/artico.txt") 
+sample = open("../input/prueba.txt") 
 s = sample.read() 
 print("Leyendo texto")
 #traduce al inglés
@@ -38,7 +38,7 @@ model2 = gensim.models.Word2Vec(data, min_count = 1, size = 30,
 
 print("Generando Modelo")
 #Generamos un array de similaridad de features con sol
-palabra = model2["ice"]
+palabra = model2["mother"]
 print(palabra)
 
 print("Normalizando valores")
