@@ -7,11 +7,11 @@ import gensim
 from gensim.models import Word2Vec 
 from textblob import TextBlob
 import funtexto as funt  
-
+from random import sample
 
 
 #lee texto
-sample = open("../input/texto.txt") 
+sample = open("../input/artico.txt") 
 s = sample.read() 
 print("Leyendo texto")
 #traduce al inglés
@@ -38,7 +38,8 @@ model2 = gensim.models.Word2Vec(data, min_count = 1, size = 30,
 
 print("Generando Modelo")
 #Generamos un array de similaridad de features con sol
-palabra = model2["earth"]
+palabra = model2["ice"]
+print(palabra)
 
 print("Normalizando valores")
 #normalizamos valores entre 0 y 991
@@ -47,20 +48,14 @@ normalizado = ((palabra-palabra.max())*((0-991)/(palabra.min()-palabra.max())))+
 #convierto a entero
 normalizado = normalizado.astype(int)
 
-#Generamos 4 listas desde normalizado ordenadas de diferente manera.
-no2 = sorted(normalizado)
-no3 = sorted(normalizado,key = lambda a: a%2 == 0)
-no4= sorted(no3)
+#elegimos forma de mezclar los colores
+if palabra.max() >= 0.015:
+    print("forma1")
+    normalizado = funt.formaUno(normalizado)
+else:
+    print("forma2")
+    normalizado = funt.formaDos(normalizado)
 
-#sumamos todas y las aplanamos
-todas = [normalizado,no3,no3,no4]
-normalizado = [a for b in todas for a in b]
-
-#la convertimos en nparray para trabajar con ello
-normalizado = np.asarray(normalizado)
-
-#para multiplicar ese array lo convertimos momentáneamente en lista
-normalizado = list(normalizado) * 750
 
 
 #creamos 3 capas obteniendo los colores de la columna rgb del dataset

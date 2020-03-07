@@ -16,15 +16,16 @@ from random import sample
 from PIL import Image
 
 # imagen contenido (creada por el texto)
-content_path = "../creada.jpg"
+#voy a invertirlo
+style_path = "../creada.jpg"
 
 # imagen estilo (temporal)
-#n = str(sample(range(1, 120), 1)[0])
-path = "../sentimientos/ale/1"
+n = str(sample(range(1, 11), 1)[0])
+path = "../sentimientos/tristeza/tristeza"
 end = ".jpg"
-style_path = path+end
+content_path = path+n+end
 
-
+print(content_path)
 tf.compat.v1.enable_eager_execution(
     config=None, device_policy=None, execution_mode=None
 )
@@ -306,7 +307,7 @@ def run_style_transfer(content_path,
   return best_img, best_loss
 
 best, best_loss = run_style_transfer(content_path,
-                                     style_path, num_iterations=500)
+                                     style_path, num_iterations=195)
 
 imagen = Image.fromarray(best)
 imagen.save("../mi_obra.jpg")
