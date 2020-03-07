@@ -16,11 +16,11 @@ from random import sample
 from PIL import Image
 
 # imagen contenido (creada por el texto)
-content_path = "creada.jpg"
+content_path = "../creada.jpg"
 
 # imagen estilo (temporal)
 #n = str(sample(range(1, 120), 1)[0])
-path = "sentimientos/ale/1"
+path = "../sentimientos/ale/1"
 end = ".jpg"
 style_path = path+end
 
@@ -306,7 +306,7 @@ def run_style_transfer(content_path,
   return best_img, best_loss
 
 best, best_loss = run_style_transfer(content_path,
-                                     style_path, num_iterations=200)
+                                     style_path, num_iterations=500)
 
 imagen = Image.fromarray(best)
-imagen.save("mi_obra.jpg")
+imagen.save("../mi_obra.jpg")
