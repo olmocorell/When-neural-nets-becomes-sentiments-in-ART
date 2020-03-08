@@ -65,23 +65,21 @@ positivo = positivo.reset_index(drop=True)
 positivo.to_csv("../data/positivos.csv")
 
 #neutros
-neu0 = colores.iloc[535:662]
-neu1 = colores.iloc[523:517]
-neu2 = colores.iloc[504:509]
-neutros = pd.concat([neu0,neu1,neu2])
+neu0 = colores.iloc[308:432]
+neu1 = colores.iloc[525:552]
+neutros = pd.concat([neu0,neu1])
 neutros = neutros.reset_index(drop=True)
 neutros.to_csv("../data/neutros.csv")
 
 #negativos
-neg0 = colores.iloc[483:553]
-neg1 = colores.iloc[589:593]
-neg2 = colores.iloc[597:600]
-neg3 = colores.iloc[604:607]
-neg4 = colores.iloc[618:620]
-neg5 = colores.iloc[625:627]
-neg6 = colores.iloc[949:963]
-neg7 = colores.iloc[928:931]
-neg8 = colores.iloc[111:139]
-negativos = pd.concat([neg0,neg1,neg2,neg3,neg4,neg5,neg6,neg7,neg8])
+neg0 = colores.iloc[949:963]
+neg1 = colores.iloc[901:902]
+neg2 = colores.iloc[894:895]
+neg3 = colores.iloc[604:606]
+neg4 = colores.iloc[589:592]
+neg5 = colores.iloc[122:146]
+neg6 = colores.iloc[611:613]
+neg7 = colores.iloc[618:620]
+negativos = pd.concat([neg0,neg1,neg2,neg3,neg4,neg5,neg6,neg7])
 negativos = negativos.reset_index(drop=True)
 negativos.to_csv("../data/negativos.csv")

@@ -10,7 +10,7 @@ from textblob import TextBlob
 import random
 
 
-def analizaTexto(texto):
+def analizaPolaridad(texto):
     polaridad = 0
     sent = []
     trad = TextBlob(f"{texto}")
@@ -19,7 +19,6 @@ def analizaTexto(texto):
     for s in sent:
         polaridad = s[0]
     return (polaridad,str(en))
-
 
 
 def generaContexto(frase):
@@ -50,25 +49,3 @@ def generaContexto(frase):
     palabra = model2[f"{choice}"]
     
     return palabra
-"""
-
-
-    #normalizamos valores entre 0 y 991
-    normalizado = ((palabra-palabra.max())*((0-74)/(palabra.min()-palabra.max())))+74
-
-
-    #convierto a entero
-    normalizado = normalizado.astype(int)
-    print(normalizado)
-
-    #elegimos forma de mezclar los colores
-    if palabra.max() >= 0.015:
-        print("forma1")
-        normalizado = funt.formaUno(normalizado)
-    else:
-        print("forma2")
-        normalizado = funt.formaDos(normalizado)
-
-    print(normalizado)
-    return normalizado
-    """
