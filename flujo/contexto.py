@@ -43,10 +43,12 @@ print(palabra)
 
 print("Normalizando valores")
 #normalizamos valores entre 0 y 991
-normalizado = ((palabra-palabra.max())*((0-991)/(palabra.min()-palabra.max())))+991
+normalizado = ((palabra-palabra.max())*((0-74)/(palabra.min()-palabra.max())))+74
+
 
 #convierto a entero
 normalizado = normalizado.astype(int)
+print(normalizado)
 
 #elegimos forma de mezclar los colores
 if palabra.max() >= 0.015:

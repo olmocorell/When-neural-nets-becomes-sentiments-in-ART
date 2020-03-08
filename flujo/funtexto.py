@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #leemos el dataset de colores para convertir los valores del array en colores
-colores = pd.read_csv("../data/colores.csv")
+colores = pd.read_csv("../data/positivos.csv")
 
 def capa(x,param):
     nuevo = []
