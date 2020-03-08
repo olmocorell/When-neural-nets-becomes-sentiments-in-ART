@@ -17,11 +17,11 @@ from PIL import Image
 
 # imagen contenido (creada por el texto)
 #voy a invertirlo
-style_path = "../creada.jpg"
+style_path = "creada.jpg"
 
 # imagen estilo (temporal)
 n = str(sample(range(1, 13), 1)[0])
-path = "../sentimientos/enfado/enfado"
+path = "sentimientos/enfado/enfado"
 end = ".jpg"
 content_path = path+n+end
 
