@@ -14,7 +14,10 @@ mpl.rcParams['figure.figsize'] = (10, 10)
 mpl.rcParams['axes.grid'] = False
 from random import sample
 from PIL import Image
-from programa import transferencia
+from programa import *
+
+
+etiqueta = recogeAudioyEtiqueta()
 
 
 # imagen contenido (creada por el texto)
@@ -23,9 +26,10 @@ style_path = "creada.jpg"
 
 # imagen estilo (temporal)
 n = str(sample(range(1, 11), 1)[0])
-path = "sentimientos/f"{transferencia}"
+path = f"sentimientos/{etiqueta}/"
 end = ".jpg"
 content_path = path+n+end
+print(f'tu content_path es: {content_path}')
 
 print(f"Formas de base: {n}")
 tf.compat.v1.enable_eager_execution(
