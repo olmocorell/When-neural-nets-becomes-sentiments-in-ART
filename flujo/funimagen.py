@@ -42,7 +42,12 @@ def capa(x,param,clave):
 
 def arrayReshape(lista):
     array = np.asarray(lista)
+    #--------------
+    # ORDENAR EL ARRAY
+    #-------------- (OBIWAN ESTÁ LOCO)
+    
     otro = array.reshape(300,300)
+    otro = np.sort(otro)
     return otro
 
 
