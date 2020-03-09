@@ -10,26 +10,26 @@ def generaLaImagen(array,pol):
     y lo mezcla y genera la imagen.
     """
     if pol < -0.3:
-        print("negativo")
+        print("El contenido es negativo")
         normalizado = funimg.normalizaNegativo(array)
         clave = "negativos"
 
     elif pol >0.3:
-        print("positivo")
+        print("El contenido es positivo")
         normalizado = funimg.normalizaPositivo(array)
         clave = "positivos"
 
     else:
-        print("neutro")
+        print("El contenido es neutro")
         normalizado = funimg.normalizaNeutro(array)
         clave = "neutros"
     
     #elegimos forma de mezclar los colores
     if array.max() >= 0.015:
-        print("forma1")
+        print("Mezclo los colores de forma A")
         normalizado = funimg.formaUno(normalizado)
     else:
-        print("forma2")
+        print("Mezclo los colores de forma B")
         normalizado = funimg.formaDos(normalizado)
 
     r = "R"
@@ -45,4 +45,4 @@ def generaLaImagen(array,pol):
     imagen = np.stack(capas, axis=2).astype('uint8')
     imagen = Image.fromarray(imagen)
     imagen.save("creada.jpg")
-    print("Imagen creada")
+    print("Imagen de contexto generada")

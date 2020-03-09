@@ -14,18 +14,20 @@ mpl.rcParams['figure.figsize'] = (10, 10)
 mpl.rcParams['axes.grid'] = False
 from random import sample
 from PIL import Image
+from programa import transferencia
+
 
 # imagen contenido (creada por el texto)
 #voy a invertirlo
 style_path = "creada.jpg"
 
 # imagen estilo (temporal)
-n = str(sample(range(1, 13), 1)[0])
-path = "sentimientos/enfado/enfado"
+n = str(sample(range(1, 11), 1)[0])
+path = "sentimientos/f"{transferencia}"
 end = ".jpg"
 content_path = path+n+end
 
-print(content_path)
+print(f"Formas de base: {n}")
 tf.compat.v1.enable_eager_execution(
     config=None, device_policy=None, execution_mode=None
 )
