@@ -4,7 +4,7 @@ import numpy as np
 
 #Recibimos el array del análisis de texto y lo normalizamos
 def normalizaNeutro(array):
-    normalizado = ((array-array.max())*((0-263)/(array.min()-array.max())))+263
+    normalizado = ((array-array.max())*((0-150)/(array.min()-array.max())))+150
     #convierto a enteros
     normalizado = normalizado.astype(int)
     return normalizado

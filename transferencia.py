@@ -234,19 +234,19 @@ def run_style_transfer(content_path,
   style_features, content_features = get_feature_representations(model, content_path, style_path)
   gram_style_features = [gram_matrix(style_feature) for style_feature in style_features]
   
-  # Set initial image
+  # Establecemos imagen inicial
   init_image = load_and_process_img(content_path)
   init_image = tf.Variable(init_image, dtype=tf.float32)
-  # Create our optimizer
+  # Añade el optimizador
   opt = tf.train.AdamOptimizer(learning_rate=5, beta1=0.99, epsilon=1e-1)
 
-  # For displaying intermediate images 
+  # Para mostrar las imágenes intermedias
   iter_count = 1
   
-  # Store our best result
+  # Puntúa el mejor resultado
   best_loss, best_img = float('inf'), None
   
-  # Create a nice config 
+  # Configuración
   loss_weights = (style_weight, content_weight)
   cfg = {
       'model': model,
@@ -256,7 +256,7 @@ def run_style_transfer(content_path,
       'content_features': content_features
   }
     
-  # For displaying
+  # Para la visualización
   num_rows = 2
   num_cols = 5
   display_interval = num_iterations/(num_rows*num_cols)
@@ -277,14 +277,14 @@ def run_style_transfer(content_path,
     end_time = time.time() 
     
     if loss < best_loss:
-      # Update best loss and best image from total loss. 
+      # Actualiza la mejor pérdida y la mejor imagen de la pérdida total.
       best_loss = loss
       best_img = deprocess_img(init_image.numpy())
 
     if i % display_interval== 0:
       start_time = time.time()
       
-      # Use the .numpy() method to get the concrete numpy array
+      # Usa numpy para obtener el array concreto
       plot_img = init_image.numpy()
       plot_img = deprocess_img(plot_img)
       imgs.append(plot_img)
@@ -310,4 +310,4 @@ best, best_loss = run_style_transfer(content_path,
                                      style_path, num_iterations=195)
 
 imagen = Image.fromarray(best)
-imagen.save("../mi_obra.jpg")
+imagen.save("mi_obra.jpg")
