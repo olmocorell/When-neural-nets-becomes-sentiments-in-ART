@@ -62,6 +62,8 @@ def formaUno(normalizado):
     
     #para multiplicar ese array lo convertimos momentáneamente en lista
     normalizado2 = list(normalizado2) * 750
+    
+
     return normalizado2
 
 def formaDos(normalizado):
