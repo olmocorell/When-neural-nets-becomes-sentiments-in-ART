@@ -8,6 +8,6 @@ def recogeTexto():
         audio1 = r.record(source, duration=13)
         print("Grabación terminada. Procesando...")
         texto = r.recognize_google(audio1, language='es_ES')        
-    with open("audio.wav", "wb") as f:
-        f.write(audio1.get_wav_data())
+        with open("audio.wav", "wb") as f:
+            f.write(audio1.get_wav_data())
     return texto
