@@ -19,6 +19,9 @@ import flujo.imagen as imagen
 import os
 from pydub import AudioSegment
 import flujo.analiza as an
+import IPython.display
+
+
 
 #Lo primero que hace el programa es recoger el mensaje
 frase = gr.recogeTexto()
@@ -248,8 +251,6 @@ def compute_grads(cfg):
 
 
 # Función que realiza la mezcla final y transfiere el estilo
-import IPython.display
-
 def run_style_transfer(content_path, 
                        style_path,
                        num_iterations=1000,
