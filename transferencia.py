@@ -14,12 +14,39 @@ mpl.rcParams['figure.figsize'] = (10, 10)
 mpl.rcParams['axes.grid'] = False
 from random import sample
 from PIL import Image
-from programa import *
+import flujo.graba as gr
+import flujo.imagen as imagen
+import os
+from pydub import AudioSegment
+import flujo.analiza as an
+import IPython.display
 
 
-etiqueta = recogeAudioyEtiqueta()
 
+#Lo primero que hace el programa es recoger el mensaje
+frase = gr.recogeTexto()
+print(f"Tu creatividad ha sido: {frase}")
+audio = AudioSegment.from_file(f'audio.wav', format='mp4')
 
+#Clasificamos el sentimiento de cómo se ha dicho el mensaje.
+etiqueta = an.procesaYpredice(audio)[0]
+if etiqueta == 1:
+     print("Lo has expresado con alegría")
+elif etiqueta == 2:
+    print("Lo has expresado con enfado")
+elif etiqueta == 3:
+    print("Lo has expresado con tristeza")
+else:
+    print("Lo has expresado con afecto")
+
+#Analizatexto devuelve una tupla con la polaridad del TEXTO y la frase traducida
+polaridad = an.analizaPolaridad(frase)
+pol = polaridad[0]
+frasetrad = polaridad[1]
+print(f"La polaridad es de: {pol}")
+array = an.generaContexto(frasetrad)
+generandoimagen = imagen.generaLaImagen(array,pol)
+print("Empiezo a fusionar el contexto con las formas...")
 # imagen contenido (creada por el texto)
 #voy a invertirlo
 style_path = "creada.jpg"
@@ -224,8 +251,6 @@ def compute_grads(cfg):
 
 
 # Función que realiza la mezcla final y transfiere el estilo
-import IPython.display
-
 def run_style_transfer(content_path, 
                        style_path,
                        num_iterations=1000,

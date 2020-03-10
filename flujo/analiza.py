@@ -1,3 +1,6 @@
+from sklearn.externals import joblib
+import pickle
+from scipy.fftpack import fft
 import nltk
 import pandas as pd
 import numpy as np
@@ -6,9 +9,9 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import gensim 
 from gensim.models import Word2Vec 
 from textblob import TextBlob
-#import funtexto as funt  
 import random
 
+rfc = joblib.load('modelos/model_rfc.pkl')
 
 def analizaPolaridad(texto):
     polaridad = 0
@@ -43,9 +46,17 @@ def generaContexto(frase):
     model2 = gensim.models.Word2Vec(data, min_count = 1, size = 30, 
                                              window = 5, sg = 1) 
 
-
     #Generamos un array de similaridad de features con una palabra
     choice = random.choice(temp)
     palabra = model2[f"{choice}"]
     
     return palabra
+
+
+def procesaYpredice(audio):
+    lista = []
+    array = audio.get_array_of_samples()[:528320]
+    four = abs(fft(array))
+    lista.append(four)
+    prediccion = rfc.predict(lista)
+    return prediccion
