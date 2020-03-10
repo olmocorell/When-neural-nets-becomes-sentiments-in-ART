@@ -45,9 +45,8 @@ def arrayReshape(lista):
     #--------------
     # ORDENAR EL ARRAY
     #-------------- (OBIWAN ESTÁ LOCO)
-    
     otro = array.reshape(300,300)
-    otro = np.sort(otro)
+    #otro = np.sort(otro) lo comento hasta hacer pruebas
     return otro
 
 
