@@ -47,7 +47,7 @@ def arrayReshape(lista):
     #-------------- (OBIWAN ESTÁ LOCO)
     
     otro = array.reshape(300,300)
-    otro = np.sort(otro)
+    #otro = np.sort(otro)
     return otro
 
 
