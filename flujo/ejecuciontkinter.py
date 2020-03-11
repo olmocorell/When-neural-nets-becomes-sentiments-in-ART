@@ -23,19 +23,23 @@ def primeraParte():
   global etiqueta
   #Lo primero que hace el programa es recoger el mensaje
   frase = gr.recogeTexto()
-  paratexto = f"{frase}"
+  print(f"La creatividad ha sido {frase}")
   mb.showinfo("Procesado", f"Tu creatividad ha sido: {frase}")
   audio = AudioSegment.from_file(f'audio.wav', format='mp4')
 
   #Clasificamos el sentimiento de cómo se ha dicho el mensaje.
   etiqueta = an.procesaYpredice(audio)[0]
   if etiqueta == 1:
+      print("Lo has expresado con alegría")
       mb.showinfo("Sentimientos", "Lo has expresado con alegría")
   elif etiqueta == 2:
+      print("Lo has expresado con enfado")
       mb.showinfo("Sentimientos", "Lo has expresado con enfado")
   elif etiqueta == 3:
+      print("Lo has expresado con tristeza")
       mb.showinfo("Sentimientos", "Lo has expresado con tristeza")
   else:
+      print("Lo has expresado con afecto")
       mb.showinfo("Sentimientos", "Lo has expresado con afecto")
 
   #Analizatexto devuelve una tupla con la polaridad del TEXTO y la frase traducida
@@ -105,7 +109,6 @@ def segundaParte():
         'gram_style_features': gram_style_features,
         'content_features': content_features
     }
-      
     # Para la visualización
     num_rows = 2
     num_cols = 5
@@ -157,10 +160,11 @@ def segundaParte():
         plt.xticks([])
         plt.yticks([])
     
+  
     return best_img, best_loss
 
   best, best_loss = run_style_transfer(content_path,
-                                      style_path, num_iterations=250)
+                                      style_path, num_iterations=200)
 
   imagen = Image.fromarray(best)
   imagen.save("mi_obra.jpg")
