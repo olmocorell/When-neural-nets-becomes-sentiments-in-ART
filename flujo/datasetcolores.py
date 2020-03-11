@@ -50,36 +50,26 @@ colores["B"] = colores.RGB.apply(extraeB)
 colores.to_csv("../data/colores.csv")
 
 #Le doy otra vuelta y saco 3 gamas. Positivo negativo y neutro.
-#De momento...a mano.
+def dataFra(lista,nombre):
+    listadata = []
+    for a in lista:
+        listadata.append(colores.iloc[a[0]:a[1]])
+    data = pd.concat(listadata)
+    data = data.reset_index(drop=True)
+    data.to_csv(f"../data/{nombre}.csv")
+    return None
 
 #positivos
-pos0= colores.iloc[176:251]
-pos1 = colores.iloc[0:3]
-pos2= colores.iloc[8:11]
-pos3 = colores.iloc[15:18]
-pos4 = colores.iloc[477:479]
-pos5 = colores.iloc[976:977]
-pos6 = colores.iloc[976:977]
-positivo = pd.concat([pos0,pos1,pos2,pos3,pos4,pos5,pos6])
-positivo = positivo.reset_index(drop=True)
-positivo.to_csv("../data/positivos.csv")
+listapositivos = [[0,45],[150,286],[477,479],[976,977]]
+positivos = "positivos"
+dataFra(listapositivos,positivos)
 
 #neutros
-neu0 = colores.iloc[308:432]
-neu1 = colores.iloc[525:552]
-neutros = pd.concat([neu0,neu1])
-neutros = neutros.reset_index(drop=True)
-neutros.to_csv("../data/neutros.csv")
+listaneutros = [[308:432],[308:432]]
+neutros = "neutros"
+dataFra(listaneutros,neutros)
 
 #negativos
-neg0 = colores.iloc[949:963]
-neg1 = colores.iloc[901:902]
-neg2 = colores.iloc[894:895]
-neg3 = colores.iloc[604:606]
-neg4 = colores.iloc[589:592]
-neg5 = colores.iloc[122:146]
-neg6 = colores.iloc[611:613]
-neg7 = colores.iloc[618:620]
-negativos = pd.concat([neg0,neg1,neg2,neg3,neg4,neg5,neg6,neg7])
-negativos = negativos.reset_index(drop=True)
-negativos.to_csv("../data/negativos.csv")
+listanegativos = [[949:963],[949:963],[901:902],[894:895],[604:606],[589:592],[122:146],[611:613],[618:620]]
+negativos = "negativos"
+dataFra(listanegativos,negativos)
