@@ -109,6 +109,7 @@ def segundaParte():
         'gram_style_features': gram_style_features,
         'content_features': content_features
     }
+
     # Para la visualización
     num_rows = 2
     num_cols = 5
@@ -159,8 +160,6 @@ def segundaParte():
         plt.imshow(img)
         plt.xticks([])
         plt.yticks([])
-    
-  
     return best_img, best_loss
 
   best, best_loss = run_style_transfer(content_path,
@@ -169,4 +168,3 @@ def segundaParte():
   imagen = Image.fromarray(best)
   imagen.save("mi_obra.jpg")
   mb.showinfo("Terminado", "La obra está terminada")
-
