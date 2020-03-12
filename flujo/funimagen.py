@@ -42,11 +42,11 @@ def capa(x,param,clave):
 
 def arrayReshape(lista):
     array = np.asarray(lista)
-    #--------------
-    # ORDENAR EL ARRAY
-    #-------------- (OBIWAN ESTÁ LOCO)
     
     otro = array.reshape(300,300)
+    #--------------
+    # SI ACTIVO ESTO SE ORDENA EL ARRAY POR GAMAS, DIFERENTES RESULTADOS
+    #--------------
     #otro = np.sort(otro)
     return otro
 

@@ -7,9 +7,10 @@ from tensorflow.python.keras.preprocessing import image as kp_image
 from PIL import Image
 import numpy as np
 
+# Elegimos,de las capas de contenido, las que se va a quedar.
 content_layers = ['block5_conv2']
 
-# Elegimos,de la imagen de estilo, las capas de estilo
+# Elegimos,de las capas de estilo, las que se queda.
 style_layers = ['block1_conv1',
                 'block2_conv1',
                 'block3_conv1',
