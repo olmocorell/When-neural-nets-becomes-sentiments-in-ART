@@ -20,6 +20,7 @@ Por una parte genera una imagen de estilo.
 Esta imagen de estilo depende del contexto de lo que diga el usuario, del tipo de mensaje que sea (positivo, negativo) y de la emoción con la que lo diga (con alegria, tristeza, enfado...)
 En función de estas variables analizadas con machine learning, nlp y Word2Vec (red neuronal de dos capas) el programa elige una tonalidad, reordena el vector generado por la red neuronal y genera un np.array que convierte en imagen.
 
+
 Después, el programa le pide al usuario que pulse el segundo botón para iniciar la segunda fase.
 En la segunda fase se van a asociar unas formas a cómo el usuario ha dicho el mensaje (elegidas en función de la clasificación de sentimientos que haya realizado el modelo de ML).
 
@@ -31,3 +32,4 @@ Por último, utilizamos una red neuronal profunda convolucional ya entrenada VGG
 
 Con todo esto, la red neuronal, nos devuelve a la salida una transferencia de estilo que queda como se puede observar a continuación.
 
+![Imagen generada](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/mi_obra.jpg) ![Interfaz](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/interfaz.png)
