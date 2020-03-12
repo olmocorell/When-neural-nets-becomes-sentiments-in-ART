@@ -23,6 +23,7 @@ def primeraParte():
   global etiqueta
   #Lo primero que hace el programa es recoger el mensaje
   frase = gr.recogeTexto()
+  frase = frase.capitalize()
   print(f"La creatividad ha sido {frase}")
   mb.showinfo("Procesado", f"Tu creatividad ha sido: {frase}")
   audio = AudioSegment.from_file(f'audio.wav', format='mp4')
@@ -55,15 +56,15 @@ def primeraParte():
 
 def segundaParte():
   mb.showinfo("Atención", "No cierres el programa, voy a tardar un rato. Te avisaré cuando acabe.")
-  # Imagen contenido (creada por el texto)
-  #voy a invertirlo
-  content_path = "creada.jpg"
+  
+  # Imagen estilo (creada por el texto)
+  style_path = "creada.jpg"
 
-  # imagen estilo (temporal)
+  # imagen contenido (formas base, se eligen en función de los sentimientos)
   n = str(sample(range(1, 11), 1)[0])
   path = f"sentimientos/{etiqueta}/"
   end = ".jpg"
-  style_path = path+n+end
+  content_path = path+n+end
   print(f'tu style_path es: {content_path}')
 
   print(f"Formas de base: {n}")
