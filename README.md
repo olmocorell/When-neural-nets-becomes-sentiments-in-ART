@@ -32,4 +32,4 @@ Por último, utilizamos una red neuronal profunda convolucional ya entrenada VGG
 
 Con todo esto, la red neuronal, nos devuelve a la salida una transferencia de estilo que queda como se puede observar a continuación.
 
-![Imagen generada](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/mi_obra.png) ![Interfaz](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/interfazf.png)
+![Interfaz+Obras](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/parareadme.jpg)
