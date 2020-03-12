@@ -8,7 +8,7 @@ Tecnologías utilizadas:
 
 - Beautiful Soup
 - Word2vec
-- Sklearn (sklearn machine learning algorithms)
+- Sklearn (machine learning algorithms)
 - NLP (natural language processing)
 - Tensorflow
 - Deep convolutional neural networks
