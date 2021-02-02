@@ -1,17 +1,17 @@
 ![Portada](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/portada.jpg)
 
-# When neural nets becomes sentiments in ART
+# When neural nets becomes sentiments in ART :lower_left_paintbrush: :art: 
 
 This is mi final project of Ironhack data analysis bootcamp
 In this project I have created a script with a graphical interface where a user can create a work of art through his feelings.
 
-### Project motivation
+### Project motivation :upside_down_face: 
 
 It has been a challenge to program all this with python.
 Creating art with artificial intelligence brings art closer to the people.
 Using different technologies learned in Ironhack, it has been like doing many projects in one.
 
-### How does it work?
+### How does it work? :gear: 
 
 First, the interface asks the user to say what he or she wants to express in order to generate the work. The interface collects the voice, records it and analyses it with machine learning algorithms.
 It also analyses the context of the user's sentence using neural networks (NLP).
@@ -33,7 +33,7 @@ With all this, the neural network returns to the output a style transfer that lo
 
 ![Interfaz+Obras](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/parareadme.jpg)
 
-### Tecnology stack
+### Tecnology stack :hammer: 
 
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Word2vec](https://radimrehurek.com/gensim/models/word2vec.html) (natural language processing)
