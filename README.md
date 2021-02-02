@@ -1,6 +1,6 @@
 ![Portada](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/portada.jpg)
 
-# When neural nets becomes sentiments in ART :lower_left_paintbrush: :art: 
+# When neural nets becomes sentiments in ART :art: 
 
 This is mi final project of Ironhack data analysis bootcamp
 In this project I have created a script with a graphical interface where a user can create a work of art through his feelings.
