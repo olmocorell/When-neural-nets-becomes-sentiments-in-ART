@@ -5,6 +5,11 @@
 This is mi final project of Ironhack data analysis bootcamp
 In this project I have created a script with a graphical interface where a user can create a work of art through his feelings.
 
+### Project motivation
+
+It has been a challenge to program all this with python.
+Creating art with artificial intelligence brings art closer to the people.
+Using different technologies learned in Ironhack, it has been like doing many projects in one.
 
 ### How does it work?
 
@@ -34,4 +39,4 @@ With all this, the neural network returns to the output a style transfer that lo
 - [Word2vec](https://radimrehurek.com/gensim/models/word2vec.html) (natural language processing)
 - [Sklearn](https://scikit-learn.org/stable/) (machine learning algorithms)
 - [Tensorflow](https://www.tensorflow.org/api_docs)
-- [Keras - Vgg19](https://keras.io/api/applications/vgg/) Deep convolutional neural networks
+- [Keras - Vgg19](https://keras.io/api/applications/vgg/) (Deep convolutional neural networks)
