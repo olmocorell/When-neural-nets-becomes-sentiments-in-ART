@@ -40,3 +40,4 @@ With all this, the neural network returns to the output a style transfer that lo
 - [Sklearn](https://scikit-learn.org/stable/) (machine learning algorithms)
 - [Tensorflow](https://www.tensorflow.org/api_docs)
 - [Keras - Vgg19](https://keras.io/api/applications/vgg/) (Deep convolutional neural networks)
+- [Tkinter](https://docs.python.org/3/library/tkinter.html) (Python interface)
