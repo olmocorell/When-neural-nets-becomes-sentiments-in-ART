@@ -28,7 +28,7 @@ With all this, the neural network returns to the output a style transfer that lo
 
 ![Interfaz+Obras](https://github.com/agalvezcorell/When-neural-nets-becomes-sentiments-in-ART/blob/master/readme/parareadme.jpg)
 
-### Tecnology stack
+### Tecnology stack
 
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Word2vec](https://radimrehurek.com/gensim/models/word2vec.html) (natural language processing)
